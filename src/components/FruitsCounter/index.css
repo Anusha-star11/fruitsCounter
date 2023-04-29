@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.fruitsCounterPage {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffd569;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.white-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 90vh;
+  width: 70vw;
+  border-radius: 10px;
+}
+.fruit-section {
+  display: flex;
+  flex-direction: row;
+}
+.mango-section {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.mangoes {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+}
+.bananas {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+}
+.heading {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.bananas-button {
+  height: 30px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.mango-button {
+  height: 30px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
