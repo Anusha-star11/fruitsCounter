@@ -5,7 +5,7 @@ import './index.css'
 class FruitsCounter extends Component {
   state = {mangoes: 0, bananas: 0}
 
-  onIncrement = () => {
+  onIncrementMango = () => {
     this.setState(prevState => {
       console.log(`prevState value ${prevState.mangoes}`)
       return {mangoes: prevState.mangoes + 1}
@@ -38,7 +38,7 @@ class FruitsCounter extends Component {
               <button
                 type="button"
                 className="mango-button"
-                onClick={this.onIncrement}
+                onClick={this.onIncrementMango}
               >
                 Eat Mango
               </button>
